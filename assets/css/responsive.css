@@ -59,25 +59,54 @@
     .welcome__desc { 
         text-align: center;
     }
+
+    .features__card {
+        width: 100%;
+    }
 }
 
 /* Tablet */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
-    .slider__title {
-        
+    .flex-cen {
+        flex-wrap: nowrap;
+    }
+
+    .slider__arrow {
+        --square: 50px;
+    }
+
+    .gallery__img {
+        margin: 8px 0;
+    }
+
+    .article__info {
+        margin-left: 15px;
+    }
+
+    .subscribe__input {
+        flex: 1;
     }
 }
 
 /* Mobile */
 @media (max-width: 46.1875em) {
     #header .grid.wide, 
-    #container > .grid.wide,
+    #container .grid.wide,
     #footer .grid.wide {
-        margin: 0 10px; 
+        padding: 0 10px; 
     }
 
     .header__nav {
         min-width: 60vw;
+    }
+
+    .header__nav-icon {
+        padding: 10px;
+        border: 1px solid #fff
+    }
+
+    .header__nav-item:hover .header__nav-icon {
+        border: none;
     }
 
     .header__info {
@@ -91,35 +120,61 @@
 
     .slider__desc {
         font-size: 1rem;
-        max-width: 80%;
     }
 
     .slider__btn {
         flex-direction: column;
     }
 
+    .slider .btn {
+        margin: 10px 0;
+    }
+
+    .btn + .btn {
+        margin-left: 0;
+    }
+
     .slider__arrow {
         --square: 40px;
     }
 
-    .analysis__item {
-        border-right: none;
+    .gallery__img {
+        margin: 5px 0;
     }
 
     .testimonial__intro {
         max-width: 80%;
     }
 
+    .analysis__item {
+        border-right: none;
+    }
+
+    .article__img {
+        max-width: 100%;
+    }
+
     /* Subscribe */
     .subscribe .flex-cen {
-        flex-wrap: nowrap;
+        /* flex-wrap: wrap; */
     }
 
     .subscribe__input {
-        min-width: 175px;
+        min-width: 95%;
     }
 
     /* Footer */
-    #footer .grid.wide {
+    #footer .flex-b {
+        justify-content: center;
+    }
+
+    .footer__logo {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer__copyright {
+        margin-bottom: 20px;
     }
 }
