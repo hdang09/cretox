@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts: Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <!-- Grid Library -->
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <header id="header">
+        <div class="grid wide flex-b">
+            <!-- The word "mobile" includes mobile and tablet -->
+            <label for="header__mobile-inp" class="header__menu-icon fas fa-bars"></label>
+            <input type="checkbox" hidden name="" id="header__mobile-inp">
+
+            <img src="./img/header/logo.png" alt="Logo" class="header__logo">
+            <nav class="header__nav">
+                <div class="header__nav-item">
+                    <div class="header__nav-btn">
+                        <span class="header__nav-label">Home</span>
+                        <i class="header__nav-icon fas fa-chevron-down"></i>
+                    </div>
+                    <div class="header__subnav">
+                        <ul class="header__subnav-list">
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 01</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 02</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 03</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 04</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 05</a>
+                            </li>
+                        </ul>
+    
+                        <ul class="header__subnav-list">
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 06</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 07</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 08</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Home Style 09</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__nav-item">
+                    <div class="header__nav-btn">
+                        <span class="header__nav-label">About Us</span>
+                        <i class="header__nav-icon fas fa-chevron-down"></i>
+                    </div>
+                    <div class="header__subnav">
+                        <ul class="header__subnav-list">
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">About Us</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Team</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Testimonials</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__nav-item">
+                    <div class="header__nav-btn">
+                        <span class="header__nav-label">Services</span>
+                        <i class="header__nav-icon fas fa-chevron-down"></i>
+                    </div>
+                    <div class="header__subnav">
+                        <ul class="header__subnav-list">
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">All Services</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Web Development</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Market Analysis</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Business Solution</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Online Support</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Digital Marketing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__nav-item">
+                    <div class="header__nav-btn">
+                        <span class="header__nav-label">Portfolio</span>
+                        <i class="header__nav-icon fas fa-chevron-down"></i>
+                    </div>
+                    <div class="header__subnav">
+                        <ul class="header__subnav-list">
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Portfolio 2 Column</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Portfolio 3 Column</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Portfolio 4 Column</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__nav-item">
+                    <div class="header__nav-btn">
+                        <span class="header__nav-label">Shop</span>
+                        <i class="header__nav-icon fas fa-chevron-down"></i>
+                    </div>
+                    <div class="header__subnav">
+                        <ul class="header__subnav-list">
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Shop</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">My account</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Checkout</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Cart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__nav-item">
+                    <div class="header__nav-btn">
+                        <span class="header__nav-label">Blog</span>
+                        <i class="header__nav-icon fas fa-chevron-down"></i>
+                    </div>
+                    <div class="header__subnav">
+                        <ul class="header__subnav-list">
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Blog Classic</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Blog Three Column</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Blog Two Column</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Blog Left Sidebar</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Blog Full Width</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Blog One Column</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Blog One Column Sidebar</a>
+                            </li>
+                            <li class="header__subnav-item">
+                                <a href="#" class="header__subnav-item-link">Single Post</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <div class="header__nav-item">
+                    <div class="header__nav-btn">
+                        <span class="header__nav-label">Contact Us</span>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__btn">
+                <label for="header__search-inp" class="header__btn-icon fas fa-search"></label>
+                <input type="checkbox" name="" hidden id="header__search-inp">
+                <div for="header__search-inp" class="header__search">
+                    <input class="header__search-box" type="text" placeholder="Search">
+                    <i class="header__search-icon fas fa-search"></i>
+                </div>
+
+                <label for="header__info-inp" class="header__btn-icon fas fa-signal"></label>
+                <input type="checkbox" hidden name="" id="header__info-inp">
+                <div class="header__info">
+                    <img src="./img/header/logo2.png" alt="Logo" class="header__info-logo">
+                    <label for="header__info-inp" class="header__info-close fas fa-times"></label>
+                    <div class="info__about">
+                        <h3 class="info-title">About Us</h3>
+                        <p class="info__about-desc">We must explain to you how all seds this mistakens idea off denouncing pleasures and praising pain was born and I will give you a completed accounts off the system and expound the actually teaching of the great explorer ut of the truth, the master builder of human happiness.</p>
+                        <button class="info__about-btn btn">CONSULATION</button>
+                    </div>
+
+                    <div class="info__contact">
+                        <h3 class="info-title">Contact Info</h3>
+
+                        <ul class="info__contact-list">
+                            <li class="info__contact-item">
+                                <i class="info__contact-icon fas fa-map-marker"></i>
+                                <span class="info__contact-desc">Rock St 12, Newyork City, USA</span>
+                            </li>
+    
+                            <li class="info__contact-item">
+                                <i class="info__contact-icon fas fa-map-marker"></i>
+                                <span class="info__contact-desc">Rock St 12, Newyork City, USA</span>
+                            </li>
+    
+                            <li class="info__contact-item">
+                                <i class="info__contact-icon fas fa-map-marker"></i>
+                                <span class="info__contact-desc">Rock St 12, Newyork City, USA</span>
+                            </li>
+    
+                            <li class="info__contact-item">
+                                <i class="info__contact-icon fas fa-map-marker"></i>
+                                <span class="info__contact-desc">Rock St 12, Newyork City, USA</span>
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="slider">
+            <div class="grid wide">
+                <h1 class="slider__title">We Love to Build Your Business</h1>
+                <p class="slider__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi eius cum, natus possimus totam tenetur? Modi cum velit similique totam reprehenderit sed sapiente, aperiam error perspiciatis provident earum repellat necessitatibus?</p>
+
+                <div class="slider__btn">
+                    <button class="btn btn-white">
+                        <a href="" class="slider__btn-link">Portfolio</a>
+                    </button>
+                    <button class="btn">
+                        <a href="" class="slider__btn-link">Contact Us</a>
+                    </button>
+                </div>
+
+                <div class="slider__scroll">
+                    <p class="slider__scroll-text">SCROLL DOWN</p>
+                    <i class="slider__scroll-icon fas fa-long-arrow-alt-down"></i>
+                </div>
+
+                <div style="left: 20px;" class="slider__arrow">
+                    <i class="slider__arrow-icon fas fa-angle-left"></i>
+                </div>
+                <div style="right: 20px;" class="slider__arrow">
+                    <i class="slider__arrow-icon fas fa-angle-right"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="welcome">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6 m-12 c-12">
+                        <h1 class="welcome__title">We are a Dynamic Team of Creatives People of Innovation & Marketing Expert.</h1>
+                    </div>
+
+                    <div class="col l-6 m-12 c-12">
+                        <p class="welcome__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eligendi voluptatum itaque ut distinctio? Numquam aut fuga soluta cupiditate molestias dolor minima nemo accusamus error quia non, cumque consequuntur delectus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="grid wide">
+                <h2 class="container__title">Our Case Study</h2>
+                <div class="container__separate">
+                    <i class="container__separate-circle fas fa-circle"></i>
+                    <i class="container__separate-circle fas fa-circle"></i>
+                    <i class="container__separate-circle fas fa-circle"></i>
+                </div>
+
+                <ul class="gallery__nav-list">
+                    <li class="gallery__nav-item">ALL</li>
+                    <li class="gallery__nav-item">DESIGNING</li>
+                    <li class="gallery__nav-item">DEVELOPMENT</li>
+                    <li class="gallery__nav-item">PHOTOGRAPHY</li>
+                    <li class="gallery__nav-item">BRANDING</li>
+                </ul>
+
+                <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        <img class="gallery__img" src="./img/container/gallery/img-1.jpg" alt="">
+                        <img class="gallery__img" src="./img/container/gallery/img-4.jpg" alt="">
+                    </div>
+
+                    <div class="col l-4 m-4 c-12">
+                        <img class="gallery__img" src="./img/container/gallery/img-2.jpg" alt="">
+                        <img class="gallery__img" src="./img/container/gallery/img-5.jpg" alt="">
+                    </div>
+
+                    <div class="col l-4 m-4 c-12">
+                        <img class="gallery__img" src="./img/container/gallery/img-3.jpg" alt="">
+                        <img class="gallery__img" src="./img/container/gallery/img-6.jpg" alt="">
+                    </div>
+                </div>
+
+                <button class="btn btn-white gallery__btn">
+                    <a href="" class="gallery__btn-link">VIEW ALL</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 m-12 c-12">
+                        <h2 style="text-align: left;" class="container__title">What We Do?</h2>
+                        <div style="top: 0;" class="container__separate">
+                            <i class="container__separate-circle fas fa-circle"></i>
+                            <i class="container__separate-circle fas fa-circle"></i>
+                            <i class="container__separate-circle fas fa-circle"></i>
+                        </div>
+                        <p class="container__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis at corporis, ab repellendus eaque asperiores eligendi tempora atque, exercitationem quasi repudiandae. Ab, odio error dicta iste quibusdam possimus incidunt!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut saepe blanditiis, non natus quasi omnis quia eum ab fuga consequuntur iure qui? Ipsum quod quisquam vel voluptas dolorem similique numquam!</p>
+
+                        <button class="btn btn-white features__btn">
+                            <a href="" class="features__btn-link">VIEW MORE</a>
+                        </button>
+                    </div>
+
+                    <div class="col l-8 m-12 c-12">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="features__card">
+                                    <i class="features__card-icon fas fa-desktop"></i>
+                                    <h3 class="features__card-title">Web Development</h3>
+                                    <p class="features__card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+
+                            <div class="col l-6 m-6 c-12">
+                                <div class="features__card">
+                                    <i class="features__card-icon far fa-chart-bar"></i>
+                                    <h3 class="features__card-title">Market Analysis</h3>
+                                    <p class="features__card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="features__card">
+                                    <i class="features__card-icon fas fa-camera-retro"></i>
+                                    <h3 class="features__card-title">Photography</h3>
+                                    <p class="features__card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+
+                            <div class="col l-6 m-6 c-12">
+                                <div class="features__card">
+                                    <i class="features__card-icon fas fa-headphones-alt"></i>
+                                    <h3 class="features__card-title">Online Support</h3>
+                                    <p class="features__card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <div class="grid wide">
+                <h2 class="container__title">Our Clients Say</h2>
+
+                <div class="container__separate">
+                    <i class="container__separate-circle fas fa-circle"></i>
+                    <i class="container__separate-circle fas fa-circle"></i>
+                    <i class="container__separate-circle fas fa-circle"></i>
+                </div>
+
+                <div class="testimonial__author">
+                    <img src="./img/container/testimonial/author-1.jpg" alt="" class="testimonial__author-img">
+                    <img src="./img/container/testimonial/author-2.jpg" alt="" class="testimonial__author-img">
+                    <img src="./img/container/testimonial/author-3.jpg" alt="" class="testimonial__author-img">
+                </div>
+
+                <p class="testimonial__intro">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias magnam nemo veritatis a praesentium blanditiis molestias! Quidem dolores saepe sequi id amet ut ab rerum repellat, velit non, at impedit? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    <i style="left: -10%;" class="testimonial__btn fas fa-arrow-left"></i>
+                    <i style="right: -10%;" class="testimonial__btn fas fa-arrow-right"></i>
+                </p>
+                <h3 class="testimonial__name">Julia Robertson</h3>
+                <span class="testimonial__job">Happy Client</span>
+
+
+            </div>
+        </div>
+
+        <div class="analysis">
+            <div class="analysis__overlay"></div>
+            <grid class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="analysis__item">
+                            <i class="analysis__icon fas fa-layer-group"></i>
+                            <span class="analysis__number">230</span>
+                            <p class="analysis__desc">Projects Done</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <div class="analysis__item">
+                            <i class="analysis__icon fas fa-snowman"></i>
+                            <span class="analysis__number">789</span>
+                            <p class="analysis__desc">Satisfied Clients</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <div class="analysis__item">
+                            <i class="analysis__icon fas fa-mug-hot"></i>
+                            <span class="analysis__number">580</span>
+                            <p class="analysis__desc">Cup Of Coffee </p>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <div class="analysis__item">
+                            <i class="analysis__icon fas fa-trophy"></i>
+                            <span class="analysis__number">129</span>
+                            <p class="analysis__desc">Awards Win</p>
+                        </div>
+                    </div>
+                </div>
+            </grid>
+        </div>
+
+        <div class="article">
+            <div class="grid wide">
+                <h2 class="container__title">Our Clients Say</h2>
+
+                <div class="container__separate">
+                    <i class="container__separate-circle fas fa-circle"></i>
+                    <i class="container__separate-circle fas fa-circle"></i>
+                    <i class="container__separate-circle fas fa-circle"></i>
+                </div>
+
+                <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        <img src="./img/container/article/blog-1.jpg" alt="Blog 1" class="article__img">
+                        <div class="article__info">
+                            <div class="article__date">January 1st, 2022</div>
+                            <a href="#" class="article__title">Eget diam fermentum</a>
+                            <p class="article__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aliquid necessitatibus commodi!</p>
+                            <div class="article__more">
+                                <a href="#" class="article__more-link">Read More</a>
+                                <i class="article__more-icon fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-4 c-12">
+                        <img src="./img/container/article/blog-2.jpg" alt="Blog 1" class="article__img">
+                        <div class="article__info">
+                            <div class="article__date">January 1st, 2022</div>
+                            <a href="#" class="article__title">Sapien imperdiet lacinia</a>
+                            <p class="article__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aliquid necessitatibus commodi!</p>
+                            <div class="article__more">
+                                <a href="#" class="article__more-link">Read More</a>
+                                <i class="article__more-icon fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-4 c-12">
+                        <img src="./img/container/article/blog-3.jpg" alt="Blog 1" class="article__img">
+                        <div class="article__info">
+                            <div class="article__date">January 1st, 2022</div>
+                            <a href="#" class="article__title">Luctus urna in lorem mollis</a>
+                            <p class="article__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aliquid necessitatibus commodi!</p>
+                            <div class="article__more">
+                                <a href="#" class="article__more-link">Read More</a>
+                                <i class="article__more-icon fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subscribe">
+            <div class="grid wide">
+                <h2 class="container__title">Subscribe Newsletter</h2>
+                <h3 class="container__subtitile">Enter your email and we'll send you details about new courses and events.</h3>
+                <div class="flex-cen">
+                    <input class="subscribe__input" type="email" name="email" placeholder="Enter your email" >
+                    <button class="subscribe__submit btn btn-black" type="submit">
+                        <a href="#" class="subscribe__submit-link">SUBSCRIBE</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="go-top">
+                <i class="go-top__icon fas fa-long-arrow-alt-up"></i>
+                <h3 class="go-top__text">GO TOP</h3>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="footer">
+        <div class="grid wide">
+            <img src="./img/header/logo.png" alt="Logo" class="header__logo">
+            <div class="flex-b">
+                <p class="footer__copyright">All copyright resevied by Templetepath 2022</p>
+                <div class="footer__social">
+                    <span class="footer__social-text">Follow Us On</span>
+
+                    <i class="footer__social-icon fab fa-facebook-f">
+                        <a href="#" class="footer__social-icon-link"></a>
+                    </i>
+
+                    <i class="footer__social-icon fab fa-twitter">
+                        <a href="#" class="footer__social-icon-link"></a>
+                    </i>
+                    
+                    <i class="footer__social-icon fab fa-android">
+                        <a href="#" class="footer__social-icon-link"></a>
+                    </i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- 
+    https://wp3.ourwpdemo.com/cretox/ 
+-->
