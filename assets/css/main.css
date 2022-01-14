@@ -499,6 +499,7 @@ input[class="header__search-box"] {
 }
 
 .features__card {
+    max-width: 100%;
     width: 375px;
     height: 225px;
     background-color: #fff;

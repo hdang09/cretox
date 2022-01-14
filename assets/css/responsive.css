@@ -1,5 +1,16 @@
 /* PC low resolution */
 @media (min-width: 64em) and (max-width: 77.4375em) {
+    .header__logo {
+        width: 150px;
+    }
+
+    .header__nav-label {
+        padding: 12px;
+    }
+
+    .analysis__item {
+        margin: 30px 15px;
+    }
 }
 
 /* Tablet & Mobile */
@@ -42,6 +53,11 @@
         margin: 0;
     }
 
+    .header__nav-icon {
+        padding: 10px;
+        border: 1px solid #fff
+    }
+
     #header__mobile-inp:checked ~ .header__nav {
         transform: translateY(var(--header-height));
     }
@@ -58,10 +74,6 @@
 
     .welcome__desc { 
         text-align: center;
-    }
-
-    .features__card {
-        width: 100%;
     }
 }
 
@@ -100,13 +112,9 @@
         min-width: 60vw;
     }
 
-    .header__nav-icon {
-        padding: 10px;
-        border: 1px solid #fff
-    }
-
     .header__nav-item:hover .header__nav-icon {
         border: none;
+        margin-right: 10px;
     }
 
     .header__info {
